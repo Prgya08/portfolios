@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #94798c;
+}
+
+header {
+    background-color: #333;
+    color: #2adf2d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f4028f;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #21136d;
+    color: #a0bfbb;
+    position: relative;
+    height:300px;
+    padding-right: 250px;
+    font-size: 32px;
+}
+
+.profile-photo {
+    width: 280px;  /* Increased width */
+    height: 350px; /* Increased height */
+    border-radius: 50% 40% 60% 30% / 40% 60% 30% 50%; /* Amoeba shape */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    object-fit: cover;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #b1acef;
+    border-radius: 8px;
+    box-shadow: 34px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 20px 10px;
+    }
+    .profile-photo{
+        height: 60px;
+        width:70px;
+        bottom:10px;
+    }
+    .hero{
+        font-size: 18px;
+        height:150px;
+    }
+}
+
+#contact {
+    padding: 20px;
+    background-color: #6792bd;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #f38fdf;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #f5f3ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #c8d038;
+}
+
